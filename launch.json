@@ -1,0 +1,14 @@
+<script type="application/json" id="config">
+{
+  "nama": "Arif",
+  "ucapan": "Happy Birthday 🎂",
+  "musik": "music.mp3"
+}
+</script>
+
+<script>
+const data = JSON.parse(
+  document.getElementById("config").textContent
+);
+console.log(data.ucapan);
+</script>
